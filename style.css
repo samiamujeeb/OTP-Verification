@@ -1,0 +1,68 @@
+/* Center the container on the screen */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #1a1a40; /* Page background color */
+}
+
+/* Adjust the container size */
+.container {
+    height: 300px; /* Increased height */
+    width: 350px; /* Increased width */
+    color: #7b7ba2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 50px; /* Increased padding */
+    border-radius: 20px; /* Slightly more rounded corners */
+    background-color: #050343; /* Keep the same background for the container */
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for a pop-out effect */
+}
+
+/* Adjust the input size */
+input {
+    width: 40px; /* Slightly larger width */
+    height: 40px; /* Slightly larger height */
+    margin: 10px 5px; /* More space between inputs */
+    font-size: 20px; /* Larger text */
+    outline: none;
+    border: 1px solid #ecf0f1;
+    border-radius: 5px;
+    text-align: center;
+    color: #e8e8ec;
+    background: transparent;
+}
+
+/* Adjust text styles */
+p, a {
+    color: #ecf0f1;
+    font-size: 15px;
+}
+
+/* Adjust button size */
+button {
+    width: 100px; /* Increased width */
+    height: 40px; /* Increased height */
+    font-size: 16px; /* Larger font */
+    font-weight: 600;
+    border-radius: 20px;
+    border: 2px solid #7b7ba2;
+    color: #7b7ba2;
+    padding: 10px; /* Adjust padding for better size */
+    cursor: pointer;
+    background: transparent;
+    transition: 0.4s ease-in;
+    margin-top: 20px; /* Add space above the button */
+    align-self: center; /* Ensure it stays centered */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #7b7ba2;
+    color: black;
+}
